@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg12"
+    android:layout_height="match_parent"
+    tools:context=".laporan">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+    <TextView
+        android:id="@+id/jalan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Jalan Raya"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FB8C00"
+        android:background="#85000000"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@+id/jalan"/>
+
+    <EditText
+        android:id="@+id/txtdata"
+        android:layout_height="40dp"
+        android:layout_width="250dp"
+        android:background="@drawable/round_border3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@+id/image_view"
+        android:gravity="center"
+        android:textColor="#FB8C00"
+        android:hint="Deskripsi.."
+        android:textColorHint="#FB8C00" />
+
+    <EditText
+        android:id="@+id/txtdata2"
+        android:layout_below="@+id/txtdata"
+        android:layout_height="40dp"
+        android:layout_width="250dp"
+        android:background="@drawable/round_border3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:hint="Alamat.."
+        android:textColor="#FB8C00"
+        android:textColorHint="#FB8C00" />
+    <ImageButton
+        android:id="@+id/myplacebtn"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_toRightOf="@+id/txtdata2"
+        android:layout_below="@+id/txtdata"
+        android:background="@drawable/map"/>
+
+    <EditText
+        android:id="@+id/txtdata3"
+        android:layout_height="40dp"
+        android:layout_width="250dp"
+        android:background="@drawable/round_border3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@+id/txtdata2"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:hint="Tanggal.."
+        android:textColor="#FB8C00"
+        android:textColorHint="#FB8C00"
+        android:clickable="false"
+        android:focusable="false"
+        android:inputType="date"/>
+    <ImageButton
+        android:id="@+id/waktu"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_toRightOf="@+id/txtdata3"
+        android:layout_below="@+id/txtdata2"
+        android:background="@drawable/calendar"/>
+
+    <Button
+        android:id="@+id/btnbrowse"
+        android:layout_width="150dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/bg1"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtdata3"
+        android:text="Galeri" />
+
+    <Button
+        android:id="@+id/btnupload"
+        android:layout_width="150dp"
+        android:layout_height="64dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/bg1"
+        android:layout_below="@+id/txtdata3"
+        android:text="Unggah" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        tools:visibility="visible" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

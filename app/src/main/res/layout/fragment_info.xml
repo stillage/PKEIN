@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bglogin">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="APLIKASI PELAPORAN KERUSAKAN INFRASTRUKTUR"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/round_border3"
+        android:gravity="center"
+        android:textSize="12pt"/>
+
+    <RelativeLayout
+        android:layout_below="@+id/header"
+        android:layout_marginTop="5mm"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:background="#BF000000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/tentang_txt"
+            android:textSize="12pt"
+            android:layout_margin="10dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textStyle="italic"/>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="logout">Logout</string>
+    <string name="sudah_punya_akun_login_disini">Sudah Punya Akun? Login Disini</string>
+    <string name="akun_tidak_terdaftar_daftar_disini">Akun Tidak Terdaftar? Daftar Disini</string>
+    <string name="keluar">Keluar</string>
+    <string name="selamat_datang_di_pkein">Selamat Datang DI PKEIN</string>
+    <string name="laporan">LAPORAN</string>
+    <string name="log_token">Log Token</string>
+    <string name="subscribe_to_weather">Subscribe To Weather</string>
+    <string name="quickstart_message">Click the SUBSCRIBE TO WEATHER button below to subscribe to the
+        weather topic. Messages sent to the weather topic will be received. The LOG TOKEN button logs the
+        InstanceID token to logcat.</string>
+    <string name="msg_subscribed">Subscribed to weather topic</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <!--
+        This is the name that users will see when interacting with this channel.
+        It should describe the category of notifications that will be sent through this channel
+     -->
+    <!-- [START fcm_default_icon_string] -->
+    <string name="default_notification_channel_name" translatable="true">Weather</string>
+    <!-- [END fcm_default_icon_string] -->
+    <string name="msg_subscribe_failed">Failed to subscribe to weather topic</string>
+    <string name="fcm_message">FCM Message</string>
+    <string name="tentang_txt">PKEIN adalah Aplikasi Pelaporan Kerusakan Infrastrukur Kab. Sumenep. Masyarakat dapat melaporkan kerusakan infrastruktur secara realtime dan tanpa harus datang ke Kantor Bina Marga</string>
+    <string name="btn_send_token">Send Token</string>
+    <string name="btn_send_tokens">Send Tokens</string>
+    <string name="btn_send_topic">Send Topic</string>
+    <string name="btn_show_token">Show Token</string>
+    <string name="btn_subscribe_news">Subscribe (News)</string>
+    <string name="btn_unsubscribe_news">Unsubscribe (News)</string>
+    <string name="notification_channel_id">default</string>
+    <string name="result">Something will happen here&#8230;</string>
+    <string name="subscribed">Subscribed to news topic</string>
+    <string name="unsubscribed">Unsubscribed from news topic</string>
+</resources>

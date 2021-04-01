@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "159231754394",
+    "firebase_url": "https://pkein-17.firebaseio.com",
+    "project_id": "pkein-17",
+    "storage_bucket": "pkein-17.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159231754394:android:43acf6fb8396e6a2d51f23",
+        "android_client_info": {
+          "package_name": "com.example.pkein"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "159231754394-k4f7mp3fnkdt6n4omsvo092kodfac4o3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pkein",
+            "certificate_hash": "2e0bda9cddb807bed046196a02b60e567e7cad8a"
+          }
+        },
+        {
+          "client_id": "159231754394-d8sknocv0bpd6ur4vrpi742hbjod91sl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdCFCxncpGomhj4j2musu8x2L-IINhucM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "159231754394-d8sknocv0bpd6ur4vrpi742hbjod91sl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

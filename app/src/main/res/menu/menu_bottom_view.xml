@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="Beranda"
+        android:icon="@drawable/ic_baseline_home_24"/>
+
+    <item
+        android:id="@+id/nav_info"
+        android:title="Tentang"
+        android:icon="@drawable/ic_baseline_info_24"/>
+    <item
+        android:id="@+id/nav_help"
+        android:title="Panduan"
+        android:icon="@drawable/ic_baseline_help_24"/>
+
+</menu>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bglogin"
+    tools:context=".allreportmenu">
+
+    <Button
+        android:id="@+id/jalanraya"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:text="Jalan Raya"
+        android:textSize="30dp"
+        android:textColor="#FB8C00"
+        android:textStyle="bold"
+        android:background="@drawable/jalanraya"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/jembatan"
+        android:layout_below="@+id/jalanraya"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:text="Jembatan"
+        android:textSize="30dp"
+        android:textColor="#FB8C00"
+        android:textStyle="bold"
+        android:background="@drawable/jembatan"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/taman"
+        android:layout_below="@+id/jembatan"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:text="Taman Kota"
+        android:textSize="30dp"
+        android:textColor="#FB8C00"
+        android:textStyle="bold"
+        android:background="@drawable/taman"
+        android:layout_weight="1"/>
+
+</LinearLayout>
